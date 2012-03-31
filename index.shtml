@@ -67,8 +67,7 @@
         </section>
         <section class="twitter half last">
             <h2><a href="http://twitter.com/theopenbastion"/>Twitter</a></h2>
-            <p>These people have collectively shown huge support for Python and the community. Proud to be a #pycon#sponsor http://twitpic.com/8k53jq</p>
-            <p class="small tweetdate">Feb 15</p>
+	    <!--#include file="tweets.html"-->
         </section>
     </section>
     

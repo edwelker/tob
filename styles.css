@@ -2,18 +2,18 @@ body{background-color:#fcf9ed;line-height:1.3125;background-image:url(paper_text
 .wrapper{width:50em;margin:0 auto;background-color:#fff;padding:2em;font-family:georgia,"times new roman", serif;box-shadow:0px 0px 10px rgba(0,0,0,.3)}
 .pageheader{margin:1em 0 2.5em}
 .pageheader a{display:block;height:300px;width:286px;background:transparent url(bastion_logo_color.png) no-repeat;text-indent:-9999em;margin:0 auto;border:0}
-h1,h2,h3,h4,h5,h6{font-family:'Oxygen',arial,sans-serif;font-weight:normal;color:#9a2634;/*text-shadow:2px 2px 2px rgba(100,100,100,.2)*/}
+h1,h2,h3,h4,h5,h6{font-family:'Oxygen',arial,sans-serif;font-weight:normal;color:#a31828;/*text-shadow:2px 2px 2px rgba(100,100,100,.2)*/}
 
-dt{float:left;width:10em}
-dd{clear:right}
+dt{float:left;width:10em;margin-bottom:.2em}
+dd{clear:right;margin-bottom:.2em}
 .dtend:after{content:","}
 .location{margin-left:.4em}
 
-.wrapper  section{padding-bottom: 1.5em;margin-top:1.5em;border-bottom:1px solid #f5e9e9}
+.wrapper section{padding-bottom: 1.2em;margin-top:1.2em;border-bottom:1px solid #f5e9e9}
 p, .press ul{margin:.5625em 0}
 
-section a{color:#9a2634;text-decoration:none}
-section a:hover{border-bottom:1px dotted #961624}
+section a{color:#a31828;text-decoration:none}
+section a:hover{text-decoration:underline}
 
 .news{overflow:hidden;}
 .news section{padding:0;margin:0;border:0}

@@ -25,6 +25,7 @@ def get_tweets(user):
         tweets = api.GetUserTimeline(user)
         return tweets
     except URLError, e:
+        print "URLError raised while trying to get timeline"
         log.exception("URLError rasised while getting user timeline: %s " % e )
 
 def format_tweets(tweets):
@@ -50,10 +51,15 @@ def print_tweets(tweets):
 
 
 if __name__ == '__main__':
-    
-    logging.basicConfig(level=logging.WARNING, filename="get_tweets.log")
+   
+    FORMAT = 'Error time: %(asctime)-15s'
+    logging.basicConfig(level=logging.ERROR, filename="get_tweets_error.log", format=FORMAT)
     log = logging.getLogger('twitter')
 
     tweets = get_tweets('theopenbastion')
-    edited_tweets = format_tweets(tweets[:3])
-    print_tweets(edited_tweets)
+    try:
+        edited_tweets = format_tweets(tweets[:3])
+        print_tweets(edited_tweets)
+    except TypeError, e:
+        print "TypeError raised while trying to edit tweets"
+        log.exception("TypeError raised while trying to edit tweets: %s" % e)

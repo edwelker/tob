@@ -1,1 +1,7 @@
-body{background-color:#b5262e}
+body{background-color:#fff7f7}
+body > div{width:50em;margin:0 auto;background-color:#fff;padding:2em;font-family:georgia,"times new roman", serif;box-shadow:0px 0px 10px rgba(0,0,0,.2)}
+.pageheader{margin:1em 0 2.5em}
+.pageheader a{display:block;height:300px;width:286px;background:transparent url(bastion_logo_color.png) no-repeat;text-indent:-9999em;margin:0 auto}
+h1,h2,h3,h4,h5,h6{font-family:'Oxygen',arial,sans-serif;font-weight:normal}
+
+td{padding:.15em 1em 0 0}

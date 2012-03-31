@@ -1,7 +1,45 @@
-body{background-color:#fff7f7}
-body > div{width:50em;margin:0 auto;background-color:#fff;padding:2em;font-family:georgia,"times new roman", serif;box-shadow:0px 0px 10px rgba(0,0,0,.2)}
+body{background-color:#fcf9ed;line-height:1.3125;background-image:url(paper_texture.jpg)}
+.wrapper{width:50em;margin:0 auto;background-color:#fff;padding:2em;font-family:georgia,"times new roman", serif;box-shadow:0px 0px 10px rgba(0,0,0,.3)}
 .pageheader{margin:1em 0 2.5em}
-.pageheader a{display:block;height:300px;width:286px;background:transparent url(bastion_logo_color.png) no-repeat;text-indent:-9999em;margin:0 auto}
-h1,h2,h3,h4,h5,h6{font-family:'Oxygen',arial,sans-serif;font-weight:normal}
+.pageheader a{display:block;height:300px;width:286px;background:transparent url(bastion_logo_color.png) no-repeat;text-indent:-9999em;margin:0 auto;border:0}
+h1,h2,h3,h4,h5,h6{font-family:'Oxygen',arial,sans-serif;font-weight:normal;color:#9a2634;/*text-shadow:2px 2px 2px rgba(100,100,100,.2)*/}
 
-td{padding:.15em 1em 0 0}
+dt{float:left;width:10em}
+dd{clear:right}
+.dtend:after{content:","}
+.location{margin-left:.4em}
+
+.wrapper  section{padding-bottom: 1.5em;margin-top:1.5em;border-bottom:1px solid #f5e9e9}
+p, .press ul{margin:.5625em 0}
+
+section a{color:#9a2634;text-decoration:none}
+section a:hover{border-bottom:1px dotted #961624}
+
+.news{overflow:hidden;}
+.news section{padding:0;margin:0;border:0}
+.half{width:48%;float:left;padding-right:2%}
+.last{padding-right:0}
+.small{font-size:.6875em}
+.tweetdate{display:block;text-align:right;color:#777}
+
+.press ul{list-style-type:none;padding:0}
+
+@media all and (max-device-width:20em){
+    .wrapper{font-size:.875em;width:20em;padding:1em}
+    .half{float:none;width:100%}
+    .news section{padding:inherit;margin:inherit;border:inherit} 
+    .twitter{border:0 !important} 
+    dt{float:none;width:auto}
+}
+
+@media all and (max-device-width:30em){
+    .wrapper{font-size:.875em;width:30em;padding:1em}
+}
+
+@media all and (max-device-width:960px){
+    .wrapper{width:50em;}
+}
+
+@media all and (max-device-width:1024px){
+    .wrapper{width:50em}
+}

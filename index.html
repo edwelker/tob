@@ -9,61 +9,73 @@
     <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<div>
+<div class="wrapper">
     <header class="pageheader">
-        <h1><a href="index.html" title="Home - The Open Bastion">The Open Bastion</a></h1>
+        <h1><a href="index.html" title="Home&ndash;The Open Bastion">The Open Bastion</a></h1>
     </header>
-
+    <section class="about">
+        <h2>About</h2>
+        <p>The Open Bastion, a <a href="http://holdenweb.com">Holden Web</a> subsidiary, produces open source events, divaining and conferences for an international audience.</p>
+    </section>
     <section class="events">
-        <h2>Planned technical events</h2>
-        <table>
-            <tr class="vevent">
-                <td class="summary">Django East</td>
-                <td><span class="dtstart" title="2012-05-18">May 18</span> - 
-                    <span class="dtend" title="2012-05-19">May 19</span></td>
-                <td class="location">Newark, NJ</td>
-            </tr>
-            <tr class="vevent">
-                <td class="summary">Django Central</td>
-                <td><span class="dtstart" title="2012-06-08">June 8</span> - 
-                    <span class="dtend" title="2012-06-09">June 9</span></td>
-                <td class="location">Chicago, IL</td>
-            </tr>
-            <tr class="vevent">
-                <td class="summary">DjangoCon</td>
-                <td><span class="dtstart" title="2012-09-03">September 3</span> - 
-                    <span class="dtend" title="2012-09-08">September 8</span></td>
-                <td class="location">Washington, DC</td>
-            </tr>
-            <tr class="vevent">
-                <td class="summary">Python East</td>
-                <td><span class="dtstart" title="2012-10-12">October 12</span> - 
-                    <span class="dtend" title="2012-10-13">October 13</span></td>
-                <td class="location">Boston, MA</td>
-            </tr>
-            <tr class="vevent">
-                <td class="summary">Python Central</td>
-                <td><span class="dtstart" title="2012-11-09">November 9</span> - 
-                    <span class="dtend" title="2012-11-10">November 10</span></td>
-                <td class="location">Dallas, TX (Austin?)</td>
-            </tr>
-            <tr class="vevent">
-                <td class="summary">Python West</td>
-                <td><span class="dtstart" title="2012-12-07">December 7</span> - 
-                    <span class="dtend" title="2012-12-08">December 8</span></td>
-                <td class="location">Los Angeles, CA</td>
-            </tr>
-            <tr class="vevent">
-                <td class="summary">Django West</td>
-                <td>TBD</td>
-                <td class="location">Portland, OR</td>
-            </tr>
-        </table>
+        <h2>Planned events</h2>
+        <dl>
+            <div class="vevent">
+                <dt class="summary">Django East
+                <dd><span class="dtstart" title="2012-05-18">May 18</span>&ndash;<span class="dtend" title="2012-05-19">May 19</span>
+                <span class="location">Newark, NJ</span></dd>
+            </div>
+            <div class="vevent">
+                <dt class="summary">Django Central
+                <dd><span class="dtstart" title="2012-06-08">Jun 8</span>&ndash;<span class="dtend" title="2012-06-09">Jun 9</span>
+                <span class="location">Chicago, IL</span></dd>
+            </div>
+            <div class="vevent">
+                <dt class="summary">DjangoCon
+                <dd><span class="dtstart" title="2012-09-03">Sep 3</span>&ndash;<span class="dtend" title="2012-09-08">Sep 8</span>
+                <span class="location">Washington, DC</span></dd>
+            </div>
+            <div class="vevent">
+                <dt class="summary">Python East
+                <dd><span class="dtstart" title="2012-10-12">Oct 12</span>&ndash;<span class="dtend" title="2012-10-13">Oct 13</span>
+                <span class="location">Boston, MA</span></dd>
+            </div>
+            <div class="vevent">
+                <dt class="summary">Python Central
+                <dd><span class="dtstart" title="2012-11-09">Nov 9</span>&ndash;<span class="dtend" title="2012-11-10">Nov 10</span>
+                <span class="location">Dallas, TX (Austin?)</span></dd>
+            </div>
+            <div class="vevent">
+                <dt class="summary">Python West
+                <dd><span class="dtstart" title="2012-12-07">Dec 7</span>&ndash;<span class="dtend" title="2012-12-08">Dec 8</span>
+                <span class="location">Los Angeles, CA</span></dd>
+            </div>
+            <div class="vevent">
+                <dt class="summary">Django West
+                <dd>TBD
+                <span class="location">Portland, OR</span></dd>
+            </div>
+        </dl>
     </section>
 
+    <section class="news">
+        <section class="press half">
+            <h2>Press Releases</h2>
+            <ul>
+                <li><a href="http://news.yahoo.com/open-bastion-announces-first-six-open-source-conferences-082340715.html">The Open Bastion Announces First of Six New Open Source Conferences for 2012</a></li>
+            </ul>
+        </section>
+        <section class="twitter half last">
+            <h2><a href="http://twitter.com/theopenbastion"/>Twitter</a></h2>
+            <p>These people have collectively shown huge support for Python and the community. Proud to be a #pycon#sponsor http://twitpic.com/8k53jq</p>
+            <p class="small tweetdate">Feb 15</p>
+        </section>
+    </section>
+    
     <section class="contact">
         <h2>Contact</h2>
-        <p>Steve Holden, The Open Bastion, LLC</p>
+        <p>Steve Holden</p>
+        <p>The Open Bastion, LLC</p>
         <p>+1 571 484 6266</p>
     </section>
 

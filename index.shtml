@@ -14,44 +14,48 @@
         <h1><a href="index.html" title="Home&ndash;The Open Bastion">The Open Bastion</a></h1>
     </header>
     <section class="about">
-        <h2>About</h2>
-        <p>The Open Bastion, a <a href="http://holdenweb.com">Holden Web</a> subsidiary, produces open source events, divaining and conferences for an international audience.</p>
+        <h1>About</h1>
+        <p>The Open Bastion, a <a href="http://holdenweb.com">Holden Web</a> subsidiary, produces open source events, training and conferences for an international audience.</p>
+        <p>The Open Bastion aims to help organizations that don't have the time or resources needed to organize quality events.  We help produce both public, as well as private events.  We'd love to help you produce your in-house technical event.</p>
+        <p>Steve Holden started organizing PyCon in 2002, and is the current chairman of the <a href="http://python.org/psf/">Python Software Foundation</a>. He has been an open source software advocate for over 25 years.</p>
+        <p>Our next event Open Django East, running from May 18-19 in Newark, New Jersey. Open Django East is the first in our <a href="http://opendjango.com">Open Django</a> series of conferences. <a href="http://opendjangoeast2012.eventbrite.com/">Reserve your place now!</a></p>
+
     </section>
     <section class="events">
-        <h2>Planned events</h2>
+        <h1 id="events">Event Schedule</h1>
         <dl>
             <div class="vevent">
-                <dt class="summary">Django East
+                <dt class="summary"><a href="http://opendjangoeast2012.eventbrite.com/">Django East</a></dt>
                 <dd><span class="dtstart" title="2012-05-18">May 18</span>&ndash;<span class="dtend" title="2012-05-19">May 19</span>
                 <span class="location">Newark, NJ</span></dd>
             </div>
             <div class="vevent">
-                <dt class="summary">Django Central
+                <dt class="summary">Django Central</dt>
                 <dd><span class="dtstart" title="2012-06-08">Jun 8</span>&ndash;<span class="dtend" title="2012-06-09">Jun 9</span>
                 <span class="location">Chicago, IL</span></dd>
             </div>
             <div class="vevent">
-                <dt class="summary">DjangoCon
+                <dt class="summary">DjangoCon</dt>
                 <dd><span class="dtstart" title="2012-09-03">Sep 3</span>&ndash;<span class="dtend" title="2012-09-08">Sep 8</span>
                 <span class="location">Washington, DC</span></dd>
             </div>
             <div class="vevent">
-                <dt class="summary">Python East
+                <dt class="summary">Python East</dt>
                 <dd><span class="dtstart" title="2012-10-12">Oct 12</span>&ndash;<span class="dtend" title="2012-10-13">Oct 13</span>
                 <span class="location">Boston, MA</span></dd>
             </div>
             <div class="vevent">
-                <dt class="summary">Python Central
+                <dt class="summary">Python Central</dt>
                 <dd><span class="dtstart" title="2012-11-09">Nov 9</span>&ndash;<span class="dtend" title="2012-11-10">Nov 10</span>
                 <span class="location">Dallas, TX (Austin?)</span></dd>
             </div>
             <div class="vevent">
-                <dt class="summary">Python West
+                <dt class="summary">Python West</dt>
                 <dd><span class="dtstart" title="2012-12-07">Dec 7</span>&ndash;<span class="dtend" title="2012-12-08">Dec 8</span>
                 <span class="location">Los Angeles, CA</span></dd>
             </div>
             <div class="vevent">
-                <dt class="summary">Django West
+                <dt class="summary">Django West</dt>
                 <dd>TBD
                 <span class="location">Portland, OR</span></dd>
             </div>
@@ -60,19 +64,19 @@
 
     <section class="news">
         <section class="press half">
-            <h2>Press Releases</h2>
+            <h1>Press Releases</h1>
             <ul>
                 <li><a href="http://news.yahoo.com/open-bastion-announces-first-six-open-source-conferences-082340715.html">The Open Bastion Announces First of Six New Open Source Conferences for 2012</a></li>
             </ul>
         </section>
         <section class="twitter half last">
-            <h2><a href="http://twitter.com/theopenbastion"/>Twitter</a></h2>
+            <h1><a href="http://twitter.com/theopenbastion"/>Twitter</a></h1>
 	    <!--#include file="tweets.html"-->
         </section>
     </section>
     
     <section class="contact">
-        <h2>Contact</h2>
+        <h1>Contact</h1>
         <div>Steve Holden</div>
         <div>The Open Bastion, LLC</div>
         <div>+1 571 484 6266</div>

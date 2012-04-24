@@ -25,7 +25,7 @@
         <h1 id="events">Event Schedule</h1>
         <dl>
             <div class="vevent">
-                <dt class="summary"><a href="http://opendjangoeast2012.eventbrite.com/">Django East</a></dt>
+                <dt class="summary"><a href="http://opendjango.com/en/east/">Django East</a></dt>
                 <dd><span class="dtstart" title="2012-05-18">May 18</span>&ndash;<span class="dtend" title="2012-05-19">May 19</span>
                 <span class="location">Newark, NJ</span></dd>
             </div>
